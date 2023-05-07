@@ -45,6 +45,13 @@ The PCB is custom made for the purpose of providing a controller that combines s
 > Left/Right:  
 > The TMC2209 and sensors are connected regarding the number and the labels on the machine
 
+> Datasheets:
+>
+> - [TMC2209](../datasheets/TMC2209_datasheet_rev1.09.pdf)
+> - [TMC2209 SilentStepKick Board](../datasheets/TMC2209_SilentStepStick_Rev110.pdf)
+> - [Tiny2040](https://shop.pimoroni.com/products/tiny-2040)
+> - [RP2040 MCU](../datasheets/rp2040-datasheet.pdf)
+
 ### Raspberry Pi
 
 The Raspberry Pi provides the GUI for the user and holds the required database for the drinks.
