@@ -1,0 +1,73 @@
+= Hardware
+
+The Drink Mixing Machine consists of several hardware parts.
+There can be grouped into three categories, namely:
+
+* <<_frame,Frame>>
+* <<_dispenser_components,Dispenser Components>>
+* <<_controlling_components,Controlling Components>>
+
+== Frame
+
+The frame is build from aluminium bases system profiles.
+
+image::images/alu-profile.png[title="Alu System Profile", width=300]
+
+== Dispenser Components
+
+The disepenser group consists of multiple components arranged around a standard bar dispenser as seen in image.
+
+image::images/dispenser.jpg[title="Bar Dispenser", width=300]
+
+The dispenser is actuated by a 3D-printed arm which is lifted with a construction of ropes and deflection spools powerd by a stepper motor as the winch.
+
+== Controlling Components
+
+The group of controlling components consits of a Raspberry Pi as the main controller of the machine combined with a custom PCB that has a Tiny2040 as a sub controller which controlls up to 4 stepper driver and sensors.
+
+=== PCB
+
+The PCB is custom made for the purpose of providing a controller that combines sensors and stepper drivers.
+
+image::images/schematic.png[title="Schematic"]
+
+image::images/pcb-layout.png[title="PCB", width=500]
+
+[NOTE]
+.Rondell
+====
+[horizontal]
+TINY2040::
+  Tiny2040
+POWER_CON::
+  Power connection for the components
+U1::
+  Dispenser
+U3::
+  Rondell
+LS4::
+  Dispenser switch
+LS3::
+  light dependent resistor (LDR) of the rondell
+LED::
+  LED for LDR sensor of the rondell
+====
+
+[NOTE]
+.Left/Right
+====
+The TMC2209 and sensors are connected regarding the number and the labels on the machine
+====
+
+.Datasheets
+* link:../datasheets/TMC2209_datasheet_rev1.09.pdf[TMC2209]
+* link:../datasheets/TMC2209_SilentStepStick_Rev110.pdf[TMC2209 SilentStepKick Board]
+* link:https://shop.pimoroni.com/products/tiny-2040[Tiny2040]
+* link:../datasheets/rp2040-datasheet.pdf[RP2040]
+
+=== Raspberry Pi
+
+The Raspberry Pi provides the GUI for the user and holds the required database for the drinks.
+The Tiny2040 on the PCBs are connected via a serial port which is mapped dynmically during runtime.
+The scale under the jar is directly connected to the Raspberry Pis GPIOs.
+
