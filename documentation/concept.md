@@ -49,6 +49,7 @@ sequenceDiagram
     Controll->>PI: getAvailableDrinks
     PI->>Controll: Drinks
     Guest->>Controll: choosedDrink
+    Controll->>PI: forwardChoosedDrink
     PI->>File:RequestDrinkInfo
     File->>PI: DrinkInfo
     loop as often as needed

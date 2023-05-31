@@ -1,12 +1,16 @@
-# Drink Mixing Machine 2023 Summer Term
+# Drink Mixing Machine
 
 This is the project repository of the Drink Mixing Machine
 
-The code for the controller can be found under [Drink Mixing Machine Controller](https://git.uni-due.de/embedded-systems/student-projects/ss23-drink-mixing-machine/drink-mixing-machine-controler), whereas the GUI code can found under [Drink Mixing Machine User Interface](https://git.uni-due.de/embedded-systems/student-projects/ss23-drink-mixing-machine/drink-mixing-machine-user-interface).
+## Structure
 
-The documentation of the hardware and software is provided under [documentation](./documentation).
+The code for the controller can be found under [Embedded Controller](https://github.com/ES-EDU-SIEGMA/Embedded-Controller), whereas the GUI code can found under [User Interface](https://github.com/ES-EDU-SIEGMA/User-Interface).
+
+The documentation of the hardware and software is provided in this Repository under [documentation](./documentation).
+Referenced Datasheets for the Hardware are stored under [datasheets](./datasheets).
+
+The CAD/STL files for the 3D printed parts are stored in the [3D printed parts](./3D_printed_parts) folder.
 
 ## Issues
 
-The issues and user stories can be found under [Issues](https://git.uni-due.de/embedded-systems/student-projects/ss23-drink-mixing-machine/main/-/issues).
-The user stories are labelled with user stories and the corresponding issues are linked to them.
+The issues and user stories can be found under [Projects SS23](https://github.com/orgs/ES-EDU-SIEGMA/projects/1) and connected to the corresponding Repository.

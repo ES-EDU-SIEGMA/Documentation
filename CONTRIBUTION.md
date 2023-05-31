@@ -51,35 +51,38 @@ Always ready to deploy => **source code can be compiled and all test are success
 
 ### `feature` Branch
 
-New features are each developed in different branches different from `main`.
-These branches can be created by executing `git checkout -b <feature>` and be published to GitLab via `git push --set-upstream <feature>`.
-After the feature is completed the feature branch will be merged back to `main` by creating a merge request in GitLab.
+New features are each developed in new branches different from `main`.
+These branches can be created by executing `git checkout -b <feature>` and be published to GitHub via `git push --set-upstream <feature>`.
+After the feature is completed the feature branch will be merged back to `main` by creating a merge request in GitHub.
 
 ## Git Basics
 
 Clone a repository:
-`bash git clone <remote>`
+`git clone <url>`
 
 Load all Submodules:
-`bash git submodule update --init --recursive`
+`git submodule update --init --recursive`
 
 Update local history:
-`bash git fetch --all`
+`git fetch --all`
 
 Download latest from server:
-`bash git pull`
+`git pull`
 
-Change current branch:
-`bash git checkout <branch> `
+Change working branch:
+`git checkout <branch>`
 
-Create new branch:
-`bash git checkout -b <branch> `
+Create new working branch:
+`git checkout -b <branch>`
 
-Add files for commit:
-`bash git add <files> `
+Add files to commit:
+`git add <files>`
 
 Commit Files:
-`bash git commit -m <message> `
+`git commit -m <message>`
 
 Upload changes to server:
-`bash git push `
+`git push`
+
+Change the remote URL:
+`git remote set-url <remote> <new_url>`

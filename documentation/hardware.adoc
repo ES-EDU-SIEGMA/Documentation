@@ -1,4 +1,6 @@
 = Hardware
+:hardbreaks:
+:icons: font
 
 The Drink Mixing Machine consists of several hardware parts.
 There can be grouped into three categories, namely:
@@ -20,6 +22,40 @@ The disepenser group consists of multiple components arranged around a standard 
 image::images/dispenser.jpg[title="Bar Dispenser", width=300]
 
 The dispenser is actuated by a 3D-printed arm which is lifted with a construction of ropes and deflection spools powerd by a stepper motor as the winch.
+
+=== Metrics
+
+.Manual Operation
+====
+3 to 5 seconds for the Dispenser to drain the liquid
+=> 4 to 6 seconds to empty the Dispenser
+====
+
+.With the Machine
+====
+Requires 9 seconds to move up/down => 18 seconds to empty a Dispenser
+
+CAUTION: Slow movement when closing is required in order to assure that the Dispenser is refilled
+====
+
+.Estimated Times for larger Dispenser (~250ml)
+|===
+|Dispenser |Manual Operation |Machine
+
+|3cl |30s |90s
+|4cl |24s |72s
+|5cl |18s |54s
+|===
+
+TIP: 5cl Dispenser can significantly reduce the time required to dispense liquids which large amounts
+
+==== Real World Test
+
+.Mixing a Cocktail with 5 ingredients:
+- 3 ingredients require 2cl each
+- 2 ingredients require 10cl each
+
+-> two runs are required with each 18 seconds => 36 seconds
 
 == Controlling Components
 
