@@ -5,9 +5,9 @@
 The Drink Mixing Machine consists of several hardware parts.
 There can be grouped into three categories, namely:
 
-* <<_frame,Frame>>
-* <<_dispenser_components,Dispenser Components>>
-* <<_controlling_components,Controlling Components>>
+* <<Frame,Frame>>
+* <<Dispenser Components,Dispenser Components>>
+* <<Controlling Components,Controlling Components>>
 
 == Frame
 
