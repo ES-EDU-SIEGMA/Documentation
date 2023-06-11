@@ -33,18 +33,24 @@ The dispenser is actuated by a 3D-printed arm which is lifted with a constructio
 
 .With the Machine
 ====
-Requires 9 seconds to move up/down => 18 seconds to empty a Dispenser
 
-CAUTION: Slow movement when closing is required in order to assure that the Dispenser is refilled
+With VACTUAL (see <<TMC2209,TMC2209>>) of 50000 μstep/t, the dispenser requires 8 seconds to move up/down => 16 seconds to empty a Dispenser.
+
+The highest speed that the motor can achieve is VACTUAL=150000 μstep/t. With this speed it takes only 6.5 seconds to empty and refill a 4 cl Dispenser.
+However, these speeds can only be achieved with a more stable mechanical system. Currently, the plastic bottle holders bend so much at higher speeds that the dispensers cant. If the dispensers are held from above when starting the motor, it is possible to start up with 150000 μstep/t. Metal bottle holder with a proper attachment to the machine might fix the problem.
+
+The current mechanical system allows for a speed of VACTUAL=100000 μstep/t for reliable emptying of the dispenser. => 8 seconds to empty a Dispener.
+
+CAUTION: Slow movement when closing is required in order to assure that the Dispenser is refilled. VACTUAL=100000 μstep/t should not be exceeded.
 ====
 
-.Estimated Times for larger Dispenser (~250ml)
+.Estimated Times to fill a ~250ml glass
 |===
-|Dispenser |Manual Operation |Machine
+|Dispenser |Manual Operation |Machine VACTUAL=50000 |Machine VACTUAL=100000
 
-|3cl |30s |90s
-|4cl |24s |72s
-|5cl |18s |54s
+|3cl |30s |90s |45
+|4cl |24s |72s |36
+|5cl |18s |54s |27
 |===
 
 TIP: 5cl Dispenser can significantly reduce the time required to dispense liquids which large amounts
@@ -100,6 +106,26 @@ The TMC2209 and sensors are connected regarding the number and the labels on the
 * link:../datasheets/TMC2209_SilentStepStick_Rev110.pdf[TMC2209 SilentStepKick Board]
 * link:https://shop.pimoroni.com/products/tiny-2040[Tiny2040]
 * link:../datasheets/rp2040-datasheet.pdf[RP2040]
+
+=== TMC2209
+The stepper motors are currently operated using the VELOCITY DEPENDENT DRIVER FEATURE CONTROL REGISTER.
+So far the motors have been operated at a speed of 
+
+* VACTUAL = 50000 μstep/t. (with fCLK = 12 MHZ -> t	=	 2^24/fCLK	=	1,398101	[sec]).
+
+With this speed the motor needs 8 seconds to fully open the dispenser.
+
+To determine how many μsteps it takes the motor to fully open the dispenser, the following formula is used.
+
+* The μstep velocity v[Hz] can be determined using the formula 
+
+** v[Hz] = VACTUAL[2209] * ( fCLK[Hz] / 2^24 ).
+
+* For fCLK = 12MHZ the formula is: v[Hz] = VACTUAL[2209] * 0.715Hz.
+
+With a VACTUAL of 50000, you have 35762.79 µSteps/s.
+
+Accordingly, 8s x v[Hz] = 8s x 35762.79 µSteps/s = 286102 µSteps are required for the complete open of the dispenser.
 
 === Raspberry Pi
 
