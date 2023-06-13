@@ -121,7 +121,9 @@ To determine how many μsteps it takes the motor to fully open the dispenser, th
 
 ** v[Hz] = VACTUAL[2209] * ( fCLK[Hz] / 2^24 ).
 
-* For fCLK = 12MHZ the formula is: v[Hz] = VACTUAL[2209] * 0.715Hz.
+* For fCLK = 12MHZ the formula is: 
+
+** v[Hz] = VACTUAL[2209] * 0.715Hz.
 
 With a VACTUAL of 50000, you have 35762.79 µSteps/s.
 
