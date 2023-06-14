@@ -63,6 +63,13 @@ TIP: 5cl Dispenser can significantly reduce the time required to dispense liquid
 
 -> two runs are required with each 18 seconds => 36 seconds
 
+=== Improvements
+
+The accuracy of the dispensing mechanism mostly depends on the volume of the dispenser.
+Due to hardware restrictions it is extremely difficult to precisely empty the dispenser only partly.
+
+TIP: After improvements to the movement speeds of the motor expiremtation should take place, that evaluates the possibilty of emptying the dispenser only partly.
+
 == Controlling Components
 
 The group of controlling components consits of a Raspberry Pi as the main controller of the machine combined with a custom PCB that has a Tiny2040 as a sub controller which controlls up to 4 stepper driver and sensors.
@@ -109,7 +116,7 @@ The TMC2209 and sensors are connected regarding the number and the labels on the
 
 === TMC2209
 The stepper motors are currently operated using the VELOCITY DEPENDENT DRIVER FEATURE CONTROL REGISTER.
-So far the motors have been operated at a speed of 
+So far the motors have been operated at a speed of
 
 * VACTUAL = 50000 μstep/t. (with fCLK = 12 MHZ -> t	=	 2^24/fCLK	=	1,398101	[sec]).
 
@@ -117,11 +124,11 @@ With this speed the motor needs 8 seconds to fully open the dispenser.
 
 To determine how many μsteps it takes the motor to fully open the dispenser, the following formula is used.
 
-* The μstep velocity v[Hz] can be determined using the formula 
+* The μstep velocity v[Hz] can be determined using the formula
 
 ** v[Hz] = VACTUAL[2209] * ( fCLK[Hz] / 2^24 ).
 
-* For fCLK = 12MHZ the formula is: 
+* For fCLK = 12MHZ the formula is:
 
 ** v[Hz] = VACTUAL[2209] * 0.715Hz.
 
