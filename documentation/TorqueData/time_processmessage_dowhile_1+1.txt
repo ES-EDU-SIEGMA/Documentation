@@ -1,0 +1,1608 @@
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No command received! Timeout reached.
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No command received! Timeout reached.
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: i (counter: 0)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: processMessage] Process message len: 1
+[MAIN-LEFT: processMessage] Message: i
+[DISPENSER: dispenserSetHaltTime] Dispenser 0 will stop after 0 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 1 will stop after 0 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 2 will stop after 0 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 3 will stop after 0 steps
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+READY
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No command received! Timeout reached.
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 1 (counter: 0)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 1)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 2)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 3)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: ; (counter: 4)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 3 (counter: 5)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 6)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 7)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 8)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: ; (counter: 9)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: processMessage] Process message len: 10
+[MAIN-LEFT: processMessage] Message: 1000;3000;
+[DISPENSER: dispenserSetHaltTime] Dispenser 0 will stop after 10 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 1 will stop after 30 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 2 will stop after 0 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 3 will stop after 0 steps
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 50.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 60.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 312
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 278
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 310
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 276
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 308
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 274
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 314
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 272
+[DISPENSER: upState] 1
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 312
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 260
+[DISPENSER: upState] 2
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 324
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 248
+[DISPENSER: upState] 3
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 332
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 246
+[DISPENSER: upState] 4
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 328
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 244
+[DISPENSER: upState] 5
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 326
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 250
+[DISPENSER: upState] 6
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 324
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 320
+[DISPENSER: upState] 7
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 332
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 318
+[DISPENSER: upState] 8
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 402
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 296
+[DISPENSER: upState] 9
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 400
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 294
+[DISPENSER: upState] 10
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 398
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 292
+[DISPENSER: upState] 11
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 404
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 310
+[DISPENSER: upState] 12
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 392
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 298
+[DISPENSER: upState] 13
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 390
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 286
+[DISPENSER: upState] 14
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 398
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 284
+[DISPENSER: upState] 15
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 340
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 282
+[DISPENSER: upState] 16
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 338
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 298
+[DISPENSER: upState] 17
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 346
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 276
+[DISPENSER: upState] 18
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 334
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 256
+[DISPENSER: upState] 19
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 342
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 224
+[DISPENSER: upState] 20
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 330
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 222
+[DISPENSER: upState] 21
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 318
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 132
+[DISPENSER: upState] 22
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 316
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 90
+[DISPENSER: upState] 23
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 304
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 52
+[DISPENSER: upState] 24
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 264
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 46
+[DISPENSER: upState] 25
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 272
+[DISPENSER: upState] 0
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 36
+[DISPENSER: upState] 26
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 260
+[DISPENSER: upState] 1
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 28
+[DISPENSER: upState] 27
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 248
+[DISPENSER: upState] 2
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 16
+[DISPENSER: upState] 28
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 236
+[DISPENSER: upState] 3
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 12
+[DISPENSER: upState] 29
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 214
+[DISPENSER: upState] 4
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 20
+[DISPENSER: upState] 30
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 202
+[DISPENSER: upState] 5
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 16
+[DISPENSER: upState] 31
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 190
+[DISPENSER: upState] 6
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 14
+[DISPENSER: upState] 32
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 30.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 178
+[DISPENSER: upState] 7
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 12
+[DISPENSER: upState] 33
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 190
+[DISPENSER: upState] 8
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 4
+[DISPENSER: upState] 34
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 168
+[DISPENSER: upState] 9
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 0
+[DISPENSER: upState] 35
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 70.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 108
+[DISPENSER: upState] 10
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 98
+[DISPENSER: upState] 11
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 120
+[DISPENSER: upState] 12
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 140
+[DISPENSER: upState] 13
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 92
+[DISPENSER: upState] 14
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 64
+[DISPENSER: upState] 15
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 74
+[DISPENSER: upState] 16
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 54
+[DISPENSER: upState] 17
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 46
+[DISPENSER: upState] 18
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 66
+[DISPENSER: upState] 19
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 58
+[DISPENSER: upState] 20
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 28
+[DISPENSER: upState] 21
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 40
+[DISPENSER: upState] 22
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 70
+[DISPENSER: upState] 23
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 102
+[DISPENSER: upState] 24
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 64
+[DISPENSER: upState] 25
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 64
+[DISPENSER: upState] 26
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 56
+[DISPENSER: upState] 27
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 48
+[DISPENSER: upState] 28
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 96
+[DISPENSER: upState] 29
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 50
+[DISPENSER: upState] 30
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 32
+[DISPENSER: upState] 31
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 30
+[DISPENSER: upState] 32
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 52
+[DISPENSER: upState] 33
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 52
+[DISPENSER: upState] 34
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 30.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 24
+[DISPENSER: upState] 35
+[DISPENSER: upState] 34
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 60.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 60.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: topState] topState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 50.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 10.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 20.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 50.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 20.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 10.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: processMessage] [Dispenser][0]Execution time: 0.000000 ms
+[DISPENSER: downState] downState
+[MAIN-LEFT: processMessage] [Dispenser][1]Execution time: 60.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][2]Execution time: 0.000000 ms
+[MAIN-LEFT: processMessage] [Dispenser][3]Execution time: 0.000000 ms
+READY
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
