@@ -1,0 +1,1071 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2023.11.14 13:09:57 =~=~=~=~=~=~=~=~=~=~=~=
+LEFT
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:113 microseconds
+[TMC2209: TMC2209_read] reply_delay:113
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[MOTOR: setUpMotor] Setup: Stepper driver with address 0 communicating and setup!
+[DISPENSER: findDirection] limitswitch closed
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:156
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:150
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[MOTOR: setUpMotor] Setup: Stepper driver with address 1 communicating and setup!
+[DISPENSER: findDirection] limitswitch closed
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:155
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:156
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:151
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[MOTOR: setUpMotor] Setup: Stepper driver with address 2 communicating and setup!
+[DISPENSER: findDirection] limitswitch closed
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:96 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:155
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:155
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:156
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:155
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:156
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:156
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:152
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:150
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:155
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[MOTOR: setUpMotor] Setup: Stepper driver with address 3 communicating and setup!
+[DISPENSER: findDirection] limitswitch open
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:155
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+CALIBRATED
+[HELPER: setUpWatchdog] Watchdog enabled with 60 seconds
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No command received! Timeout reached.
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 2 (counter: 0)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 1)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 2)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: 0 (counter: 3)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: main] Message end not reached!
+[HELPER: storeCharacter] Received: ; (counter: 4)
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No timeout reached!
+[MAIN-LEFT: main] Received valid character
+[MAIN-LEFT: main] Message Buffer not full!
+[MAIN-LEFT: processMessage] Process message len: 5
+[MAIN-LEFT: processMessage] Message: 2000;
+[DISPENSER: dispenserSetHaltTime] Dispenser 0 will stop after 20 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 1 will stop after 0 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 2 will stop after 0 steps
+[DISPENSER: dispenserSetHaltTime] Dispenser 3 will stop after 0 steps
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:89 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 316
+[DISPENSER: upState] 0
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:88 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 310
+[DISPENSER: upState] 1
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:149
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 314
+[DISPENSER: upState] 2
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 308
+[DISPENSER: upState] 3
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:90 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 312
+[DISPENSER: upState] 4
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:91 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 314
+[DISPENSER: upState] 5
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:86 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 318
+[DISPENSER: upState] 6
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:91 microseconds
+[TMC2209: TMC2209_read] reply_delay:171
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 326
+[DISPENSER: upState] 7
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:153
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 320
+[DISPENSER: upState] 8
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:92 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 324
+[DISPENSER: upState] 9
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:92 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 328
+[DISPENSER: upState] 10
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 322
+[DISPENSER: upState] 11
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 326
+[DISPENSER: upState] 12
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:147
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 320
+[DISPENSER: upState] 13
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:90 microseconds
+[TMC2209: TMC2209_read] reply_delay:172
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 324
+[DISPENSER: upState] 14
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:88 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 398
+[DISPENSER: upState] 15
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:88 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 392
+[DISPENSER: upState] 16
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:91 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 406
+[DISPENSER: upState] 17
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:159
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 390
+[DISPENSER: upState] 18
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:91 microseconds
+[TMC2209: TMC2209_read] reply_delay:171
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 394
+[DISPENSER: upState] 19
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 398
+[DISPENSER: upState] 20
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:92 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 402
+[DISPENSER: upState] 21
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 396
+[DISPENSER: upState] 22
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:91 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 400
+[DISPENSER: upState] 23
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:90 microseconds
+[TMC2209: TMC2209_read] reply_delay:172
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 394
+[DISPENSER: upState] 24
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:155
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 342
+[DISPENSER: upState] 25
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:91 microseconds
+[TMC2209: TMC2209_read] reply_delay:177
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 346
+[DISPENSER: upState] 26
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 340
+[DISPENSER: upState] 27
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 334
+[DISPENSER: upState] 28
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:102 microseconds
+[TMC2209: TMC2209_read] reply_delay:156
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 338
+[DISPENSER: upState] 29
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:91 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 342
+[DISPENSER: upState] 30
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:175
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 344
+[DISPENSER: upState] 31
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:104 microseconds
+[TMC2209: TMC2209_read] reply_delay:158
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 340
+[DISPENSER: upState] 32
+[DISPENSER: upState] 32
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:160
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: upState] upState
+[DISPENSER: upState] Torque: 342
+[DISPENSER: upState] 33
+[DISPENSER: upState] 32
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:153
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:102 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:102 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:113 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:181
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:204
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: topState] topState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: topState] topState
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:173
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:107 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:115 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:96 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:173
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:111 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:88 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:174
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:161
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:174
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:111 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:107 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:107 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:102 microseconds
+[TMC2209: TMC2209_read] reply_delay:162
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:106 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:107 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:102 microseconds
+[TMC2209: TMC2209_read] reply_delay:176
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:107 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:102 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:172
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:106 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:108 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:97 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:96 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:109 microseconds
+[TMC2209: TMC2209_read] reply_delay:167
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:163
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:100 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:166
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:99 microseconds
+[TMC2209: TMC2209_read] reply_delay:170
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:110 microseconds
+[TMC2209: TMC2209_read] reply_delay:168
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:107 microseconds
+[TMC2209: TMC2209_read] reply_delay:164
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:169
+[DISPENSER: downState] downState
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:101 microseconds
+[TMC2209: TMC2209_read] reply_delay:165
+[DISPENSER: downState] downState
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:98 microseconds
+[TMC2209: TMC2209_read] reply_delay:171
+[TMC2209: TMC2209_sendDatagramRead] echo_delay:114 microseconds
+[TMC2209: TMC2209_read] reply_delay:157
+READY
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
+[MAIN-LEFT: main] Start Processing Input!
+[MAIN-LEFT: main] No command received! Timeout reached.
+[HELPER: resetWatchdogTimer] Watchdog reset performed!
