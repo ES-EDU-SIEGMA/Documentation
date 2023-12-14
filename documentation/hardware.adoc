@@ -1,6 +1,10 @@
 = Hardware
-:hardbreaks:
 :icons: font
+:toc: top
+:toclevels: 4
+:stem:
+:imagesdir: images
+:figure-caption!:
 
 The Drink Mixing Machine consists of several hardware parts.
 There can be grouped into three categories, namely:
@@ -13,47 +17,55 @@ There can be grouped into three categories, namely:
 
 The frame is build from aluminium bases system profiles.
 
-image::images/alu-profile.png[title="Alu System Profile", width=300]
+image::alu-profile.png[title="Alu System Profile", width=150]
 
 == Dispenser Components
 
-The disepenser group consists of multiple components arranged around a standard bar dispenser as seen in image.
+The dispenser group consists of multiple components arranged around a standard bar dispenser as seen in <<dispenser-img,Dispenser Image>>.
 
-image::images/dispenser.jpg[title="Bar Dispenser", width=300]
+image::dispenser.jpg[title="Bar Dispenser", width=300, id=dispenser-img]
 
-The dispenser is actuated by a 3D-printed arm which is lifted with a construction of ropes and deflection spools powerd by a stepper motor as the winch.
+The dispenser is actuated by a 3D-printed arm which is lifted with a construction of ropes and pulleys powered by a stepper motor as the winch.
 
 === Metrics
 
 .Manual Operation
 ====
-3 to 5 seconds for the Dispenser to drain the liquid
-=> 4 to 6 seconds to empty the Dispenser
+3 to 5 seconds for the Dispenser to drain the liquid +
+**=> 4 to 6 seconds to empty the Dispenser**
 ====
 
 .With the Machine
 ====
 
-With VACTUAL (see <<TMC2209,TMC2209>>) of 50000 μstep/t, the dispenser requires 8 seconds to move up/down => 16 seconds to empty a Dispenser.
+With a `VACTUAL` (<<TMC2209>>) of 50000 latexmath:[\frac{\mu\text{-steps}}{t}}], the dispenser requires 8 seconds to move up and 8 to move down +
+**=> latexmath:[\geq] 16 seconds to empty a Dispenser**
 
-The highest speed that the motor can achieve is VACTUAL=150000 μstep/t. With this speed it takes only 6.5 seconds to empty and refill a 4 cl Dispenser.
-However, these speeds can only be achieved with a more stable mechanical system. Currently, the plastic bottle holders bend so much at higher speeds that the dispensers cant. If the dispensers are held from above when starting the motor, it is possible to start up with 150000 μstep/t. Metal bottle holder with a proper attachment to the machine might fix the problem.
+The highest speed that the motor can achieve is `VACTUAL` = 150000 latexmath:[\frac{\mu\text{-steps}}{t}]. With this speed it takes only 6.5 seconds to empty and refill a 4 cl Dispenser.
+However, these speeds can only be achieved with a more stable mechanical system. 
+Currently, the plastic bottle holders bend to much at higher speeds.
+If the dispensers are held from above when starting the motor, it is possible to start up with 150000 latexmath:[\frac{\mu\text{-steps}}{t}]. 
+Metal components with a proper attachment to the machine might fix this problem.
 
-The current mechanical system allows for a speed of VACTUAL=100000 μstep/t for reliable emptying of the dispenser. => 8 seconds to empty a Dispener.
+IMPORTANT: The current mechanical system allows for speeds of up to  `VACTUAL` = 100000 latexmath:[\frac{\mu\text{-steps}}{t}] for reliable emptying of the dispenser. +
+**=> 8 seconds to empty a Dispener**
 
-CAUTION: Slow movement when closing is required in order to assure that the Dispenser is refilled. VACTUAL=100000 μstep/t should not be exceeded.
+CAUTION: Slow movement when closing is required in order to assure that the Dispenser is refilled. 
+`VACTUAL` = 100000 latexmath:[\frac{\mu\text{-steps}}{t}] should not be exceeded.
 ====
 
-.Estimated Times to fill a ~250ml glass
+.Estimated Times to fill a 250ml glass
 |===
-|Dispenser |Manual Operation |Machine VACTUAL=50000 |Machine VACTUAL=100000
+|Dispenser |Manual Operation |Machine `VACTUAL`=50000 |Machine `VACTUAL`=100000
 
-|3cl |30s |90s |45
-|4cl |24s |72s |36
-|5cl |18s |54s |27
+|3cl |30s |90s |45s
+
+|4cl |24s |72s |36s
+
+|5cl |18s |54s |27s
 |===
 
-TIP: 5cl Dispenser can significantly reduce the time required to dispense liquids which large amounts
+TIP: 5cl Dispenser can significantly reduce the time required to dispense liquids with large amounts.
 
 ==== Real World Test
 
@@ -61,52 +73,73 @@ TIP: 5cl Dispenser can significantly reduce the time required to dispense liquid
 - 3 ingredients require 2cl each
 - 2 ingredients require 10cl each
 
--> two runs are required with each 18 seconds => 36 seconds
+-> two runs are required with each 18 seconds +
+**=> 36 seconds**
 
 === Improvements
 
 The accuracy of the dispensing mechanism mostly depends on the volume of the dispenser.
-Due to hardware restrictions it is extremely difficult to precisely empty the dispenser only partly.
+Due to hardware restrictions it is extremely difficult to precisely empty the dispenser only partially.
 
-TIP: After improvements to the movement speeds of the motor expiremtation should take place, that evaluates the possibilty of emptying the dispenser only partly.
+TIP: After improvements to the movement speeds of the motor experiments should take place, that evaluates the possibilty of emptying the dispenser only partially.
 
 == Controlling Components
 
-The group of controlling components consits of a Raspberry Pi as the main controller of the machine combined with a custom PCB that has a Tiny2040 as a sub controller which controlls up to 4 stepper driver and sensors.
+The controlling components of the machine are a Raspberry Pi (as the main controller) combined with a custom PCB that features a Tiny2040 as a controller for up to 4 stepper drivers and multiple sensors.
+
+image::schematic.png[title="Machine Schematic"]
+
+=== Raspberry Pi
+
+The Raspberry Pi provides the GUI for the user and holds the required database for the drinks and ingredients.
+
+The Tiny2040 on the PCBs are connected to the Raspberry Pi via a serial port which are mapped dynamically during runtime.
+
+The scale under the jar is directly connected to the Raspberry Pi via GPIOs.
+
+==== Scale
+
+The scale unit consists of a beam scale combined with an ADC.
+
+[horizontal]
+Beam Scale::
+    The beam scale provides us with a continues analogue signal that has to be converted to a digital signal.
+ADC::
+    The ADC converts the analogue signal from the beam scale to a digital signal, that can be used by interpreted digital GPIO pins of the Raspberry PI.
+    The Drink mixing machine utilizes the HX711 ADC chip, which is specialized in converting analogue data from a scale.
+HX711:::
+    The HX711 can be used with a throughput of 10 *or* 80 samples per second and provides a active low noise programmable gain amplifier (gain = 32, 64, 128).
+    Each sample consists of a 24 bit value provided in twos-complement.
+Software::
+    The software library used is  the https://github.com/tatobari/hx711py[tatobari/hx711py] library.
+    To get correct values from the scale the library requires the user to specify a `REFERENCE_UNIT`.
+    This value is the factor that scales the received value and has to be determined by experimentation with the setup, as described in https://github.com/tatobari/hx711py/blob/master/example.py[libraries example.py].
+
+IMPORTANT: `REFERENCE_UNIT` has to be reevaluated when the module is changed *or* when the chip is changed!
 
 === PCB
 
-The PCB is custom made for the purpose of providing a controller that combines sensors and stepper drivers.
+NOTE: The Eagle project files can be found the https://github.com/ES-EDU-SIEGMA/Embedded-Controller/tree/main/PCB[Embedded-Controller Repository]
 
-image::images/schematic.png[title="Schematic"]
+The PCB is custom made for this machine.
 
-image::images/pcb-layout.png[title="PCB", width=500]
+image::PCB.svg[title="PCB", width=500]
 
-[NOTE]
-.Rondell
-====
+image::Schematics.svg[title="Schematics", width=500]
+
 [horizontal]
-TINY2040::
-  Tiny2040
-POWER_CON::
-  Power connection for the components
-U1::
-  Dispenser
-U3::
-  Rondell
-LS4::
-  Dispenser switch
-LS3::
-  light dependent resistor (LDR) of the rondell
+CONTROLLER::
+    Tiny2040 Compute Module
+POWER_CONNECTOR::
+    Power connection for the PCB
+S1-S4::
+    Endpoints for sensor connections
 LED::
-  LED for LDR sensor of the rondell
-====
-
-[NOTE]
-.Left/Right
-====
-The TMC2209 and sensors are connected regarding the number and the labels on the machine
-====
+    LED for LDR sensor of the rondell
+UART_1::
+    Debug point for the one-wire UART to the TMC Motor Drivers
+SPI_I2C::
+    Breakouts to connect the Tiny2040 via SPI or I^2^C to the Raspberry Pi
 
 .Datasheets
 * link:../datasheets/TMC2209_datasheet_rev1.09.pdf[TMC2209]
@@ -114,31 +147,41 @@ The TMC2209 and sensors are connected regarding the number and the labels on the
 * link:https://shop.pimoroni.com/products/tiny-2040[Tiny2040]
 * link:../datasheets/rp2040-datasheet.pdf[RP2040]
 
-=== TMC2209
-The stepper motors are currently operated using the VELOCITY DEPENDENT DRIVER FEATURE CONTROL REGISTER.
-So far the motors have been operated at a speed of
+==== TMC2209
 
-* VACTUAL = 50000 μstep/t. (with fCLK = 12 MHZ -> t	=	 2^24/fCLK	=	1,398101	[sec]).
+The stepper motors are currently operated using the `VELOCITY DEPENDENT DRIVER FEATURE CONTROL REGISTER`.
+So far the motors have been operated at a speed `VACTUAL` of 50000 latexmath:[\frac{\mu\text-steps}{t}], with a CLK frequency of 12 MHz each step would take latexmath:[t=2^{24}\cdot CLK^{1}	=	1.398101] seconds.
 
-With this speed the motor needs 8 seconds to fully open the dispenser.
+NOTE: With this speed the motor needs 8 seconds to fully open the dispenser.
 
-To determine how many μsteps it takes the motor to fully open the dispenser, the following formula is used.
+The latexmath:[\mu\text{-steps}] velocity v in Hertz can be determined using the formula:
+[latexmath]
+++++
+v = \frac{VACTUAL \cdot CLK}{2^{24}}
+++++
 
-* The μstep velocity v[Hz] can be determined using the formula
+To determine how many latexmath:[\mu\text{-steps}] it takes the motor to fully open the dispenser, the following formula is used.
 
-** v[Hz] = VACTUAL[2209] * ( fCLK[Hz] / 2^24 ).
+[latexmath]
+++++
+v \cdot t
+++++
 
-* For fCLK = 12MHZ the formula is:
+[example]
+====
+For `CLK` frequency of 12MHZ and a `VACTUAL` of 50000 the formula is:
+[latexmath]
+++++
+v = 50000 \cdot 0.715Hz = 35762.79\frac{\mu\text{-steps}}{\text{second}}
+++++
 
-** v[Hz] = VACTUAL[2209] * 0.715Hz.
+Therefore 
+[latexmath]
+++++
+8\;\text{seconds}\cdot v = 8\;\text{seconds}\cdot 35762.79\frac{\mu\text{-steps}}{\text{second}} = 286102\mu\text{-steps}
+++++
+are required to fully open of the dispenser.
+====
 
-With a VACTUAL of 50000, you have 35762.79 µSteps/s.
 
-Accordingly, 8s x v[Hz] = 8s x 35762.79 µSteps/s = 286102 µSteps are required for the complete open of the dispenser.
-
-=== Raspberry Pi
-
-The Raspberry Pi provides the GUI for the user and holds the required database for the drinks.
-The Tiny2040 on the PCBs are connected via a serial port which is mapped dynmically during runtime.
-The scale under the jar is directly connected to the Raspberry Pis GPIOs.
 

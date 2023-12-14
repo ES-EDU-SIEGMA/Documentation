@@ -1,28 +1,39 @@
 = Hardware
-:hardbreaks:
 :icons: font
+:toc: top
 
-== Best Resultes
+== Files
 
-Gears and Rope Lattering should be printed with the SLA printer to obtain the best possible results. The SLA printer provides a more dense/stable result!
+CAD models for different parts of the machine can be found under link:../3D_printed_parts[3D_printed_parts].
 
-Moveable parts like the Cable Clips can only be printed with the FLM printer!
+The required STL files for some parts can be found under link:../3D_printed_parts/STL_Files[STL_Files].
+These files can be used as input for the printer controlling software to directly print these parts.
+
+== Best Results
+
+TIP: The SLA printer provides a more dense/stable result
+
+Gears and Pulleys should be printed with the SLA printer to obtain the best results. 
+
+IMPORTANT: Moveable parts like the Cable Clips can only be printed with the FLM printer
 
 == Food Safety
 
-Standart filaments/resins are not qualified for food safety, due to the fact, that this materials emit toxic components into the beverages.
+Standard filaments/resins are not qualified for food safety prints, due to the fact, that this materials emit toxic components into the beverages.
 
-The solution to this problem would be to use a Filament that is approved by the EU/FDA to be food safety. Such Filaments can for example be bought by fabricants like BASF:
+The solution to this problem would be to use a Filament that is approved by the EU/FDA to be food safety.
+Such Filaments can for example be bought by manufacturers like BASF:
 
-* https://www.igo3d.com/innofil3d-epr-pet-175-weiss-2500[PET based Filament]
-**  same material as water bottles
-** Developed by Innofil3D (purchased by BASF)
-** Approved by the EU and FDA
-* https://www.igo3d.com/innofil3d-pp-175-natur-700[PP based Filament]
-** Polypropylen
-** Developed by Innofil3D (purchased by BASF)
-** Approved by EU and FDA
+https://www.igo3d.com/innofil3d-epr-pet-175-weiss-2500[PET based Filament]::
+*  same material as water bottles
+* Developed by Innofil3D (purchased by BASF)
+* Approved by the EU and FDA
 
-.Sources
+https://www.igo3d.com/innofil3d-pp-175-natur-700[PP based Filament]::
+* Polypropylen
+* Developed by Innofil3D (purchased by BASF)
+* Approved by EU and FDA
+
+== Sources
 * https://formlabs.com/blog/guide-to-food-safe-3d-printing/[]
 
