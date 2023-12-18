@@ -1,0 +1,79 @@
+= Drink Mixing Machine
+:icons: font
+:toc: top
+:toclevels: 4
+:stem:
+:imagesdir: images
+:figure-caption!:
+
+The application shows a list of available drinks from which the guest can choose.
+After the selection the application retrieves all flow speeds from the database and calcualtes the time required for dispensing the beverages alongside with the count of dischareges required to fill the glass.
+The timings will be send to the Controller on each PCB as often as the dispensr has to be emptied.
+
+During the dispensing of the drinks the display provides a progress report based on scale underneath the glass of the guest.
+This requires the scale to be tared before every drink dispensing.
+
+== Glossar
+
+.Roles
+[cols=">,<", options="header"]
+|===
+|Role |Definition
+|Owner |Person who owns of the machine (Leo) (administrator rights)
+|Privileged User |Person who has extended user rights
+|Guest |Person who wants to get a drink (basic user rights)
+|Cleaner |Person who cleans the machine
+|Bottle Changer |Person who changes the beverages
+|Developer |Person who develops software/hardware for the machine
+|===
+
+.Components
+[cols=">,<", options="header"]
+|===
+|Term |Definition
+|Dispenser |manual dosing device
+|mix |pouring beverages together
+|Recipe |Specification for creating a beverage
+|Ingredients |Beverages like Milk, Alcohol, Water, Sirup, Juice, ...; in standard commercial bottles
+|===
+
+== Sequence Diagram: Dispense Drink
+
+ifdef::env-github[]
+[source,mermaid]
+endif::[]
+ifndef::env-github[]
+[mermaid,format=svg]
+endif::[]
+----
+sequenceDiagram
+    participant Guest
+    participant UI as User Interface
+    participant PI as Raspberry Pi
+    participant DB as Data Storage
+    participant CONTROLLER as Tiny2040
+
+    UI->>PI: Get Available Drinks
+    PI->>UI: Show Drinks
+    Guest->>UI: Select Drink
+    UI->>PI: Forward Selected Drink
+    PI->>DB: Request Drink Information
+    File->>PI: Send Drink Info
+    PI->>PI: Calculate activation time for dispenser
+    PI->>PI: Tare Scale
+    PI->>CONTROLLER: Send Activation Time For Dispenser
+    CONTROLLER->>+CONTROLLER: Start Dispensing Beverages
+    par Update UI
+        loop Until Glass Full
+            PI->>PI: Get Weight from Scale
+            PI->>UI: Show Progress
+        end
+    and Upate from Tiny2040
+        CONTROLLER->>-PI: Finish Dispenesning Beverages
+    end
+    alt Dispenesning Successful
+        PI->>UI: Show Finish Message
+    else otherwise
+        PI->>UI: Show Error Message
+    end
+----

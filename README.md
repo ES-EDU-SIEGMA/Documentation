@@ -1,6 +1,6 @@
 # Drink Mixing Machine
 
-This is the project repository of the Drink Mixing Machine
+This is the project repository of the Drink Mixing Machine.
 
 ## Structure
 
@@ -13,4 +13,5 @@ The CAD/STL files for the 3D printed parts are stored in the [3D printed parts](
 
 ## Issues
 
-The issues and user stories can be found under [Projects SS23](https://github.com/orgs/ES-EDU-SIEGMA/projects/1) and connected to the corresponding Repository.
+The issues and user stories can be found under [Projects Board](https://github.com/orgs/ES-EDU-SIEGMA/projects/1).
+Each Issue is connected to a Repository which it concerns.
