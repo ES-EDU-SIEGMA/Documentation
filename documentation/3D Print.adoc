@@ -1,6 +1,10 @@
 = Hardware
 :icons: font
 :toc: top
+:toclevels: 4
+:stem:
+:imagesdir: images
+:figure-caption!:
 
 == Files
 

@@ -14,16 +14,16 @@ The communication protocol defines the messages exchanged between the Rapsberry 
 |===
 |Command |Description
 
-|`i` 
+|`i`
 |Request identifier
 
 |`LEFT`
 |Identifier for left controller
 
-|`RIGHT` 
+|`RIGHT`
 |Identifier for right controller
 
-|`RONDELL` 
+|`RONDELL`
 |Identifier for rondell controller
 
 |`F`
@@ -46,6 +46,16 @@ Standard Syntax::
 
 Dispense liquids::
     `<halt_time_dispenser_1>;<halt_time_dispenser_2>;<halt_time_dispenser_3>;<halt_time_dispenser_4>;\n`
+
+====
+Message:: `5000;11500;0;0;\n`
+
+.Declaration
+* Dispenser 1 opens for 5000ms
+* Dispenser 2 opens for 11500ms
+* Dispenser 3 opens for 0ms
+* Dispenser 4 opens for 0ms
+====
 
 == Communication Sequence
 
