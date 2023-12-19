@@ -58,7 +58,7 @@ sequenceDiagram
     Guest->>UI: Select Drink
     UI->>PI: Forward Selected Drink
     PI->>DB: Request Drink Information
-    File->>PI: Send Drink Info
+    DB->>PI: Send Drink Info
     PI->>PI: Calculate activation time for dispenser
     PI->>PI: Tare Scale
     PI->>CONTROLLER: Send Activation Time For Dispenser
