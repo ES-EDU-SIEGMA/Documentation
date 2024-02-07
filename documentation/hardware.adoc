@@ -37,8 +37,7 @@ The dispenser is actuated by a 3D-printed arm which is lifted with a constructio
 
 .With the Machine
 ====
-
-With a `VACTUAL` (<<TMC2209>>) of 50000 latexmath:[\frac{\mu\text{-steps}}{t}}], the dispenser requires 8 seconds to move up and 8 to move down +
+With a `VACTUAL` (<<TMC2209>>) of 5000 latexmath:[\frac{\mu\text{-steps}}{\text{second}}], the dispenser requires 8 seconds to move up and 8 to move down +
 **=> latexmath:[\geq] 16 seconds to empty a Dispenser**
 
 The highest speed that the motor can achieve is `VACTUAL` = 150000 latexmath:[\frac{\mu\text{-steps}}{t}]. With this speed it takes only 6.5 seconds to empty and refill a 4 cl Dispenser.
